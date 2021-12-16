@@ -14,7 +14,7 @@ class SQRServiceTest {
         "inside bordery values, 101, 9800, 88",
         "equivalent values, 4000, 5000, 7",
         "exsample from technical task values, 200, 300, 3",
-        "negative test, 4, 8, 0",}
+        "outside diapason values, 4, 8, 0",}
     )
     void shouldCalcNumberOfSqrAtDiapason(String name, int bottom, int upper, int expected) {
         SQRService service = new SQRService();
